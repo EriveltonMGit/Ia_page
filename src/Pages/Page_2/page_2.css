@@ -235,7 +235,7 @@
     height: 30%;
     margin: 0;
     font-family: "Proelium";
-    font-size: 8vw;
+    font-size: 10vw;
     z-index: 1;
     overflow-y: hidden;
     background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
@@ -248,7 +248,7 @@
     width: 100%;
     height: 35%;
      font-family: 'Purista';
-    font-size: 3.8vw;
+    font-size: 4.2vw;
     font-weight: 800;
     color: var(--white);
     letter-spacing: 1px;

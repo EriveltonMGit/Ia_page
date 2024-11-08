@@ -317,6 +317,7 @@
     padding: 2rem;
     backdrop-filter: blur(5px);
     z-index: 2;
+    gap: 2vh;
   
   }
   .section_5 .card h2{
@@ -325,7 +326,7 @@
     margin: 0;
     color: var(--card);
     font-family: "Proelium";
-    font-size: 4vw;
+    font-size: 7vw;
     z-index: 1;
     overflow-y: hidden;
   }
@@ -335,7 +336,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-size: 4vw;
+    font-size: 7vw;
     font-family: "Proelium";
   }
   .section_5 .card p {
@@ -343,7 +344,7 @@
     width: 100%;
     height: 35%;
      font-family: 'Purista';
-    font-size: 3.5vw;
+    font-size: 4.2vw;
     font-weight: 800;
     color: var(--card);
     letter-spacing: 1px;

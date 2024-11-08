@@ -1,10 +1,8 @@
-"use client";
-
 import "./page_8.css";
 
 export default function Page_8() {
   return (
-    <section id="contato" className="section_footer">
+    <section id="contato" className="section_8">
       <footer  className="footer">
         <div className="container">
           {/* Sobre */}
@@ -30,7 +28,7 @@ export default function Page_8() {
             <ul className="footerList">
               <li>
                 <a href="#!">
-                  <i className="bi bi-person-badge"></i>MENTORIA
+                  <i className="bi bi-person-badge"></i>SEJA UM MENTOR
                 </a>
               </li>
               <li>
@@ -46,7 +44,7 @@ export default function Page_8() {
               <li>
                 <a href="#!">
                   {" "}
-                  <i className="bi bi-chat-dots"></i> TREINAMENTO
+                  <i className="bi bi-microsoft-teams"></i> TREINAMENTO
                 </a>
               </li>
             </ul>
@@ -88,13 +86,13 @@ export default function Page_8() {
 
           {/* Redes Sociais */}
           <div
-            className="footerColumn links"
+            className="footerColumn"
             data-aos="fade-left"
             data-aos-duration="3000"
           >
             <h5 className="footerTitle">SIGA-ME</h5>
             <div className="socialLinks">
-           
+         
               {/*  */}
               <div className="div_icons">
                 <a href="" target="_blank" rel="noopener noreferrer">
@@ -119,6 +117,5 @@ export default function Page_8() {
         </div>
       </footer>
     </section>
-    
   );
 }
