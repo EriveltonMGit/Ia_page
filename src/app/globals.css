@@ -1,6 +1,41 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* // src/styles/globals.scss */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/*COLORS */
+:root {
+  --bk-color: #0d0f11;
+  --red: #c83334;
+  --yellow: #f2ff00;
+  --gold: #daa520;
+  --teal: #13ff00;
+  --cyan: #e0eeee;
+
+
+
+  
+  --blue: #00dfc0;
+  --indigo: #5011b6;
+  --purple: #6f42c1;
+  --orange: #fd7e14;
+  --green: #4ade80;
+
+  --white: #ebebeb;
+  --gray: #6c757d31;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+ 
+  --f-spinner-color-2: rgba(17,24,28,.8);
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #1f212b;
+  --card: #211d1d;
+}
+
 
 :root {
   --background: #ffffff;
@@ -14,8 +49,89 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: var( --cyan);
+
+}
+
+
+
+a {
+  
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff3300 50%,
+    #ff3300,
+    #000000,
+    #000000,
+    #000000
+  );
+  border-radius: 6px;
+  transition: 05s ease-in-out;
+}
+
+
+
+@font-face {
+  font-family: 'Sora-VariableFon';
+  src: url('/fonts/Sora/Sora-VariableFont_wght.ttf') format('ttf');
+  font-weight:bolder;
+  font-style: normal;
+}
+
+
+
+/* Declaração da fonte */
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/Gotham/gotham-light.woff2') format('woff2');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+/* Declaração da fonte */
+@font-face {
+  font-family: 'Proelium';
+  src: url('/fonts/Proelium/Proelium.otf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Purista';
+  src: url('/fonts/Purista/Purista%20Bold.otf') format('opentype'); /* Corrigido para escapar o espaço */
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('/fonts/Orbit/orbitron-bold.otf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+

@@ -1,0 +1,321 @@
+/* footer.module.css */
+.section_footer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+  background-color: var(--bk-color);
+}
+/* Estilos principais do footer */
+.footer {
+  /* border-bottom: 1px solid #0056b3; */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  position: relative;
+}
+
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footerColumn {
+  display: flex;
+  width: 20%;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 1px solid red;
+}
+
+.footerTitle {
+  width: 100%;
+  height: 30%;
+  margin: 0;
+  font-family: "Proelium";
+  font-size: 3vw;
+  z-index: 1;
+  overflow-y: hidden;
+  background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.footerText {
+  overflow-y: hidden;
+  width: 100%;
+  height: 35%;
+  font-family: "Purista";
+  font-size: 1.3vw;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+.footerList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerList li {
+  margin-bottom: 10px;
+}
+
+.footerList li i {
+  margin-right: 8px;
+}
+
+.footerList a {
+  overflow-y: hidden;
+  width: 100%;
+  height: 35%;
+  font-family: "Purista";
+  font-size: 1.3vw;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+.footerList a:hover {
+  color: var(--orange);
+}
+
+/* Links sociais */
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 1vh;
+  width: 100%;
+}
+
+.socialLinks img {
+  width: 7vw;
+}
+
+.socialLinks a {
+  color: white;
+  font-size: 2vw;
+  border-radius: 4px;
+}
+
+.socialLinks a:hover {
+  color: var(--danger);
+}
+
+.footer .bi {
+  transition: 0.5s;
+  margin-left: 1vw;
+  background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.footer .bi:hover {
+  color: var(--white);
+}
+/* Copyright */
+.copyright {
+  position: absolute;
+  bottom: 0;
+  font-family: "Purista";
+  font-size: 1vw;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+/* _________________MIDIA SCRENN _______________ */
+@media (max-width: 480px) {
+  /* footer.module.css */
+  .section_footer {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+    background-color: var(--bk-color);
+  }
+  /* Estilos principais do footer */
+  .footer {
+    /* border-bottom: 1px solid #0056b3; */
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+  }
+
+  .footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .footerColumn {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 0;
+    margin-left: 0px;
+  }
+
+  .footerTitle {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    font-family: "Proelium";
+    font-size: 5;
+    z-index: 1;
+    overflow-y: hidden;
+    background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    margin-left: 0px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .footerText {
+    overflow-y: hidden;
+    width: 100%;
+    height: 50%;
+    font-family: "Purista";
+    font-size: 3vw;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: 1px;
+  }
+
+  .footerList {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footerList li {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerList li i {
+    margin-right: 8px;
+  }
+
+  .footerList a {
+    overflow-y: hidden;
+    width: 100%;
+    height: 5vh;
+    font-family: "Purista";
+    font-size: 4vw;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerList a:hover {
+    color: var(--orange);
+  }
+
+  /* Links sociais */
+  .socialLinks {
+    display: none;
+  }
+
+  .socialLinks img {
+    width: 7vw;
+  }
+
+  .socialLinks a {
+    color: white;
+    font-size: 2vw;
+    border-radius: 4px;
+   
+  }
+
+  .socialLinks a:hover {
+    color: var(--danger);
+  }
+
+  .footer .bi {
+    transition: 0.5s;
+    margin-left: 1vw;
+    background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 5vw;
+  }
+  .footer .bi:hover {
+    color: var(--white);
+  }
+  /* Copyright */
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    font-family: "Purista";
+    font-size: 4vw;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: 1px;
+    display: none;
+  }
+}

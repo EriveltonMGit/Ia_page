@@ -1,0 +1,289 @@
+
+/* SECTION PRINCIAPAL */
+.section_1 {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* AQUI FICA AS DUAS IMAGENS UMA FICA ESCODINDA ATRAS DO CARD E A AOUTRA É O TEXTO ANIMADO */
+/* ciculo_ */
+.ciculo_ {
+  position: absolute;
+  right: 0;
+  margin-top: -5vh;
+  margin-right: -20%;
+  z-index: 1;
+  filter: blur(40px);
+}
+/* // svg_top */
+.svg_top {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  margin-bottom:-20vh ;
+  overflow: hidden;
+ 
+}
+
+@keyframes slide_text {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* container */
+.container {
+  width: 95%;
+  height: 85%;
+  box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.183);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  z-index: 3;
+  margin-top: -15vh;
+
+  overflow: hidden;
+}
+/* AQUI FICA O CARD DA IA COM OS TEXTOS E BUTTON */
+.card_ia {
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card_ia h1 {
+  color: var(--bk-color);
+  font-family: "Proelium";
+  font-size: 7vw;
+  width: 95%;
+  position: absolute;
+  z-index: 1;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  margin-left: 1vw;
+}
+/*card_rodape_ */
+.card_rodape_ {
+  width: 95%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* .card_rodape_ p */
+.card_rodape_ p {
+  font-family: "Proelium";
+  font-size: 2vw;
+  color: var(--dark);
+  letter-spacing: 2px;
+}
+/* .card_rodape_ p */
+.card_rodape_ p span {
+  background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* .btn_sb */
+.btn_sb {
+  width: 20%;
+  border-radius: 10px;
+  padding: 1rem;
+  background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+  font-family: "Proelium";
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  transition: 0.5s;
+  margin-left: 1vw;
+}
+.btn_sb:hover {
+  color: var(--white);
+  box-shadow: 1px 1px 1rem black;
+}
+
+/* IMAGEM QUE FICA NO CONTAINER */
+.__bk_ia {
+  width: 30vw;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 1s;
+}
+.__bk_ia:hover {
+  scale: 1.1;
+}
+
+
+
+
+/* _________________MIDIA SCRENN _______________ */
+@media (max-width:480px) {
+  
+/* SECTION PRINCIAPAL */
+.section_1 {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* AQUI FICA AS DUAS IMAGENS UMA FICA ESCODINDA ATRAS DO CARD E A AOUTRA É O TEXTO ANIMADO */
+/* ciculo_ */
+.ciculo_ {
+  position: absolute;
+  right: 0;
+  margin-top: -5vh;
+  margin-right: -20%;
+  z-index: 1;
+  filter: blur(40px);
+}
+/* // svg_top */
+.svg_top {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  margin-bottom:-20vh ;
+  overflow: hidden;
+ 
+}
+
+@keyframes slide_text {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* container */
+.container {
+  width: 95%;
+  height: 85%;
+  box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.183);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  z-index: 3;
+  margin-top: -15vh;
+  overflow: hidden;
+}
+/* AQUI FICA O CARD DA IA COM OS TEXTOS E BUTTON */
+.card_ia {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card_ia h1 {
+  color: var(--bk-color);
+  font-family: "Proelium";
+  font-size: 14vw;
+  width: 100%;
+  margin-top: 5vh;
+  position: absolute;
+  z-index: 1;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  margin-left: 1vw;
+}
+/*card_rodape_ */
+.card_rodape_ {
+  width: 95%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* .card_rodape_ p */
+.card_rodape_ p {
+  font-family: "Proelium";
+  font-size: 6vw;
+  color: var(--white);
+  letter-spacing: 2px;
+  text-align: center;
+  border-radius: 10px;
+background-color: rgba(0, 0, 0, 0.64);
+  height: 25vh;
+  padding: 1rem;
+  
+}
+/* .card_rodape_ p */
+.card_rodape_ p span {
+  background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* .btn_sb */
+.btn_sb {
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+  background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+  font-family: "Proelium";
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  transition: 0.5s;
+  margin-left: 1vw;
+  text-align: center;
+}
+.btn_sb:hover {
+  color: var(--white);
+  box-shadow: 1px 1px 1rem black;
+}
+
+/* IMAGEM QUE FICA NO CONTAINER */
+.__bk_ia {
+  width: 90vw;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 1s;
+  z-index: -1;
+  
+}
+.__bk_ia:hover {
+  scale: 1.1;
+}
+
+}

@@ -1,0 +1,349 @@
+.section_3 {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .svg_bottom */
+.svg_bottom {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 3;
+  rotate: 180deg;
+  margin-top: -1vh;
+}
+
+/* titulo_ia */
+.titulo_ia{
+  position: absolute;
+  top: 0;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  
+}
+.titulo_ia h1{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  color: var(--card);
+  font-family: "Proelium";
+  font-size: 3vw;
+  z-index: 1;
+  overflow-y: hidden;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.titulo_ia a{
+  margin: 0;
+  color: var(--card);
+  font-family: "Proelium";
+  font-size: 1vw;
+  z-index: 1;
+  overflow-y: hidden;
+  display: flex;
+  align-items:flex-end;
+  justify-content:space-around;
+  margin-right: 2vw;
+  margin-top: 1vh;
+}
+.titulo_ia a:hover{
+  color: blue;
+}
+
+/* link_social */
+.link_social{
+  width: 20%;
+  margin: 0;
+  padding: 0.3rem;
+  color: var(--card);
+  font-family: "Proelium";
+  z-index: 1;
+  overflow-y: hidden;
+  display: flex;
+  align-items:flex-end;
+  justify-content:space-around;
+  margin-right: 2vw;
+  margin-top: 1vh;
+}
+/* .link_social .bi */
+.link_social .bi{
+  font-size: 1.2vw;
+}
+.link_social .bi:hover{
+  color: blueviolet;
+  
+}
+
+/* __________________________ */
+
+.section_3 .cards_{
+  width: 95%;
+  height: 70%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+}
+
+/* card */
+.card{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+
+}
+.card h2{
+  width: 100%;
+  
+  margin: 0;
+  color: var(--card);
+  font-family: "Proelium";
+  font-size: 2vw;
+  z-index: 1;
+  overflow-y: hidden;
+}
+/* .card h2 span */
+.card h2 span{
+  background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2vw;
+  font-family: "Proelium";
+}
+.card p {
+  overflow-y: hidden;
+  width: 100%;
+  height: 35%;
+   font-family: 'Purista';
+  font-size: 1.3vw;
+  font-weight: 800;
+  color: var(--card);
+  letter-spacing: 1px;
+}
+
+/* card_2 */
+.card_2{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+/* img_ia_2 */
+.img_ia_2{
+  width: 30vw;
+  object-fit: cover;
+}
+
+
+
+/* _________________MIDIA SCRENN _______________ */
+@media (max-width:480px){
+  .section_3 {
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    overflow: hidden;
+
+  }
+  
+  /* .svg_bottom */
+  .svg_bottom {
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 3;
+    rotate: 180deg;
+    margin-top: -1vh;
+  }
+  
+  /* titulo_ia */
+  .section_3 .titulo_ia{
+    position: absolute;
+    top: 0;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    padding: 1rem;
+
+  }
+  .section_3 .titulo_ia h1{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: var(--card);
+    font-family: "Proelium";
+    font-size: 4vw;
+    z-index: 1;
+    overflow-y: hidden;
+  
+    border-bottom: 1px solid black;
+  }
+  
+  .section_3 .titulo_ia a{
+    margin: 0;
+    color: var(--card);
+    font-family: "Proelium";
+    font-size: 3vw;
+    z-index: 1;
+    overflow-y: hidden;
+    display: flex;
+    align-items:flex-end;
+    justify-content:space-around;
+    margin-right: 2vw;
+    margin-top: 1vh;
+  }
+  .titulo_ia a:hover{
+    color: blue;
+  }
+  
+  /* link_social */
+  .link_social{
+    width: 70%;
+    margin: 0;
+    padding: 0.3rem;
+    color: var(--card);
+    font-family: "Proelium";
+    z-index: 3;
+    overflow-y: hidden;
+    display: flex;
+    align-items:flex-end;
+    justify-content:space-around;
+    margin-right: 2vw;
+    margin-top: 1vh;
+  }
+  /* .link_social .bi */
+  .link_social .bi{
+    font-size: 5vw;
+  }
+  .link_social .bi:hover{
+    color: blueviolet;
+    
+  }
+  
+  /* __________________________ */
+  
+  .section_3 .cards_{
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+ position:absolute ;
+  }
+  
+  /* card */
+  .section_3 .card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    position: absolute;
+    gap: 2vh;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.487);
+    
+
+  
+  }
+  .section_3 .card h2{
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    color: var(--white);
+    font-family: "Proelium";
+    font-size: 4vw;
+    z-index: 1;
+    overflow-y: hidden;
+    letter-spacing: 3px;
+  }
+  /* .card h2 span */
+  .section_3  .card h2 span{
+    background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 5vw;
+    font-family: "Proelium";
+    letter-spacing: 3px;
+  }
+  .section_3 .card p {
+    overflow-y: hidden;
+    width: 100%;
+    height: 65%;
+     font-family: 'Purista';
+    font-size: 4vw;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: 1px;
+  
+    padding: 0.3rem;
+  }
+   
+  
+  /* card_2 */
+  .section_3 .card_2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+  
+  }
+  /* img_ia_2 */
+  .img_ia_2{
+    width: 100vw;
+    object-fit: cover;
+    filter: blur(4px);
+  }
+}

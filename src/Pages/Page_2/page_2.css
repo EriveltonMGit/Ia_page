@@ -1,0 +1,258 @@
+
+
+.section_2 {
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  z-index: 4; 
+}
+
+
+
+
+
+
+
+
+.container_content {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bk-color);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* card_1 */
+.cards_1 {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+/* AQUI FICA A IMAGEM ANIMADA DA SECTION 2 QUE UTILIZA O GSAP */
+.div_flutuante {
+  height: 50vh;
+  position: absolute;
+  top: 0; /* Começa do topo da seção */
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 2rem;
+  width:25vw;
+  overflow: hidden;
+  filter: hue-rotate(120deg);
+  z-index: 1;
+ 
+}
+
+/* opacity_flutu */
+.opacity_flutu{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  z-index: 10;
+  background-image: linear-gradient(0deg,#0d0f11,#0d0f11ea, #0d0f117b, rgba(0, 0, 0, 0));
+}
+
+
+/* card_2 */
+.cards_2 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+}
+/* ;.card_2 .titulo_ia */
+.card_ {
+  width: 90%;
+  height: 30%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  padding: 1rem;
+}
+.card_ h1 {
+  width: 100%;
+  height: 30%;
+  margin: 0;
+  color: var(--white);
+  font-family: "Proelium";
+  font-size: 5vw;
+  z-index: 1;
+  overflow-y: hidden;
+}
+.card_ h1 span {
+  width: 100%;
+  height: 30%;
+  margin: 0;
+  font-family: "Proelium";
+  font-size: 3vw;
+  z-index: 1;
+  overflow-y: hidden;
+  background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.card_ p {
+  overflow-y: hidden;
+  width: 100%;
+  height: 35%;
+   font-family: 'Purista';
+  font-size: 1.3vw;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+
+
+
+
+/* _________________MIDIA SCRENN _______________ */
+@media (max-width:480px){
+  .section_2 {
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 4; 
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .container_content {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bk-color);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+  }
+  
+  /* card_1 */
+  .cards_1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  /* AQUI FICA A IMAGEM ANIMADA DA SECTION 2 QUE UTILIZA O GSAP */
+  .div_flutuante {
+    height: 50vh;
+    position: absolute;
+    top: 0; /* Começa do topo da seção */
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 2rem;
+    width:90%;
+    overflow: hidden;
+    filter: hue-rotate(120deg);
+    z-index: 1;
+   
+  }
+  
+  /* opacity_flutu */
+  .opacity_flutu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    z-index: 10;
+    background-image: linear-gradient(0deg,#0d0f11,#0d0f11ea, #0d0f117b, rgba(0, 0, 0, 0));
+  }
+  
+  
+  /* card_2 */
+  .cards_2 {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    z-index: 2;
+  }
+  /* ;.card_2 .titulo_ia */
+  .cards_2 .card_ {
+    width: 90%;
+    height: 30%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .cards_2 .card_ h1 {
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    color: var(--white);
+    font-family: "Proelium";
+    font-size: 10vw;
+    z-index: 1;
+    overflow-y: hidden;
+  }
+  .cards_2 .card_ h1 span {
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    font-family: "Proelium";
+    font-size: 8vw;
+    z-index: 1;
+    overflow-y: hidden;
+    background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .cards_2 .card_ p {
+    overflow-y: hidden;
+    width: 100%;
+    height: 35%;
+     font-family: 'Purista';
+    font-size: 3.8vw;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: 1px;
+  }
+  
+  
+}
