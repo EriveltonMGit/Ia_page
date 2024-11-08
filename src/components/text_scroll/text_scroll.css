@@ -5,6 +5,7 @@
     height: 5px;
     background: var(--accent);
     bottom: 100px;
+  
   }
   
   .parallax {
@@ -25,6 +26,7 @@
     white-space: nowrap;
     display: flex;
     flex-wrap: nowrap;
+  
   }
   
   .parallax span {

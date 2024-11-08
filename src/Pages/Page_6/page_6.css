@@ -17,7 +17,7 @@
 
 @media (max-width:480px) {
   .section_6 {
-    width: 100%;
+    width: 83%;
     height: 40vh;
     display: flex;
     align-items: center;
@@ -28,6 +28,7 @@
     overflow: hidden;
     z-index: 4; 
     background-color: var(--bk-color);
+    
     
   }
   
