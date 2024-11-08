@@ -1,5 +1,3 @@
-
-
 .section_2 {
   width: 100%;
   height: 200vh;
@@ -9,15 +7,8 @@
   color: white;
   position: relative;
   overflow: hidden;
-  z-index: 4; 
+  z-index: 4;
 }
-
-
-
-
-
-
-
 
 .container_content {
   width: 100%;
@@ -49,23 +40,27 @@
   object-fit: cover;
   border-radius: 10px;
   padding: 2rem;
-  width:25vw;
+  width: 25vw;
   overflow: hidden;
   filter: hue-rotate(120deg);
   z-index: 1;
- 
 }
 
 /* opacity_flutu */
-.opacity_flutu{
+.opacity_flutu {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 10vh;
   z-index: 10;
-  background-image: linear-gradient(0deg,#0d0f11,#0d0f11ea, #0d0f117b, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(
+    0deg,
+    #0d0f11,
+    #0d0f11ea,
+    #0d0f117b,
+    rgba(0, 0, 0, 0)
+  );
 }
-
 
 /* card_2 */
 .cards_2 {
@@ -115,21 +110,18 @@
   overflow-y: hidden;
   width: 100%;
   height: 35%;
-   font-family: 'Purista';
+  font-family: "Purista";
   font-size: 1.3vw;
   font-weight: 800;
   color: var(--white);
   letter-spacing: 1px;
 }
 
-
-
-
-
 /* _________________MIDIA SCRENN _______________ */
-@media (max-width:480px){
+@media (max-width: 480px) {
   .section_2 {
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     height: 250vh;
     display: flex;
     align-items: center;
@@ -137,19 +129,13 @@
     color: white;
     position: relative;
     overflow: hidden;
-    z-index: 4; 
-   
+    z-index: 4;
   }
-  
-  
-  
-  
-  
-  
-  
-  
+
   .container_content {
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
+    max-width: 100%;
     height: 100%;
     background-color: var(--bk-color);
     position: absolute;
@@ -158,13 +144,13 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-
   }
-  
+
   /* card_1 */
   .cards_1 {
     position: relative;
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -180,27 +166,34 @@
     object-fit: cover;
     border-radius: 10px;
     padding: 2rem;
-    width:90%;
+    width: 90vw;
+    max-width: 90%;
     overflow: hidden;
     filter: hue-rotate(120deg);
     z-index: 1;
-   
   }
-  
+
   /* opacity_flutu */
-  .opacity_flutu{
+  .opacity_flutu {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     height: 10vh;
     z-index: 10;
-    background-image: linear-gradient(0deg,#0d0f11,#0d0f11ea, #0d0f117b, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(
+      0deg,
+      #0d0f11,
+      #0d0f11ea,
+      #0d0f117b,
+      rgba(0, 0, 0, 0)
+    );
   }
-  
-  
+
   /* card_2 */
   .cards_2 {
-    width: 95%;
+    width: 95vw;
+  max-width: 95% ;
     height: 100%;
     display: flex;
     align-items: center;
@@ -211,7 +204,8 @@
   }
   /* ;.card_2 .titulo_ia */
   .cards_2 .card_ {
-    width: 90%;
+    width: 95vw;
+    max-width: 95% ;
     height: 30%;
     overflow: hidden;
     margin: 0;
@@ -247,12 +241,10 @@
     overflow-y: hidden;
     width: 100%;
     height: 35%;
-     font-family: 'Purista';
+    font-family: "Purista";
     font-size: 4.2vw;
     font-weight: 800;
     color: var(--white);
     letter-spacing: 1px;
   }
-  
-  
 }

@@ -148,7 +148,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  max-width: 100%;
+  
 }
 
 /* AQUI FICA AS DUAS IMAGENS UMA FICA ESCODINDA ATRAS DO CARD E A AOUTRA É O TEXTO ANIMADO */
@@ -160,10 +161,11 @@
   margin-right: -20%;
   z-index: 1;
   filter: blur(40px);
+
 }
 /* // svg_top */
 .svg_top {
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   position: absolute;
   bottom: 0;
@@ -188,7 +190,8 @@
 
 /* container */
 .container {
-  width: 95%;
+  width: 95vw;
+  max-width: 100% ;
   height: 85%;
   box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.183);
   border-radius: 10px;
@@ -197,10 +200,12 @@
   z-index: 3;
   margin-top: -15vh;
   overflow: hidden;
+  
 }
 /* AQUI FICA O CARD DA IA COM OS TEXTOS E BUTTON */
 .card_ia {
-  width: 100%;
+  width: 100vw;
+  max-width: 100% ;
   height: 100%;
   position: absolute;
   left: 0;
@@ -209,12 +214,14 @@
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
+  
 }
 .card_ia h1 {
   color: var(--bk-color);
   font-family: "Proelium";
   font-size: 14vw;
-  width: 100%;
+  width: 100vw;
+  max-width: 100% ;
   margin-top: 5vh;
   position: absolute;
   z-index: 1;
@@ -222,10 +229,12 @@
   position: absolute;
   top: 0;
   margin-left: 1vw;
+
 }
 /*card_rodape_ */
 .card_rodape_ {
-  width: 95%;
+  width: 95vw;
+  max-width: 100% ;
   height: 50%;
   position: absolute;
   bottom: 0;
@@ -234,6 +243,7 @@
   justify-content: space-around;
   flex-direction: column;
   flex-wrap: wrap;
+
 }
 /* .card_rodape_ p */
 .card_rodape_ p {
@@ -246,6 +256,7 @@
 background-color: rgba(0, 0, 0, 0.64);
   height: 25vh;
   padding: 1rem;
+ 
   
 }
 /* .card_rodape_ p */
@@ -254,10 +265,12 @@ background-color: rgba(0, 0, 0, 0.64);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  
 }
 /* .btn_sb */
 .btn_sb {
-  width: 100%;
+  width: 95%;
+  max-width: 100% ;
   border-radius: 10px;
   padding: 1rem;
   background: linear-gradient(90deg, #ffab00, #ff3300, #ff0000);

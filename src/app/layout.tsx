@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-// import Scroll from "../components/scroll/Scroll_Suave"; // Importa o componente Scroll
+import Scroll from "../components/scroll/Scroll_Suave"; // Importa o componente Scroll
 // IMPORT CURSOR
 import BolinhaSeguindoMouse from "../components/Cursor/cursor_bolinha";
 export const metadata: Metadata = {
@@ -20,17 +20,17 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
         />
-       {/* <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.14/dist/lenis.css" /> */}
+       <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.14/dist/lenis.css" />
       </head>
 
       <body>
         <BolinhaSeguindoMouse />
-        {/* <Scroll /> */}
+        <Scroll />
         {children}
-        {/* <script
+        <script
           src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"
           defer
-        ></script> */}
+        ></script>
       </body>
     </html>
   );

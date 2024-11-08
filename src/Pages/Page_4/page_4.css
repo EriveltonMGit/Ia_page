@@ -227,7 +227,8 @@
     position: absolute;
     top: 0;
     height: 20vh;
-    width: 100%;
+    width: 100vw;
+    max-width: 100% ;
     display: flex;
     align-items:flex-end;
     justify-content: center;
@@ -237,7 +238,8 @@
     
   }
   .section_4 .titulo_ia h1{
-    width: 100%;
+    width: 100vw;
+    max-width: 100% ;
     height: 100%;
     margin: 0;
     color: var(--card);
@@ -295,7 +297,8 @@
   /* __________________________ */
   
   .section_4  .cards_{
-    width: 100%;
+    width: 100vw;
+    max-width: 100% ;
     height: 85%;
     position: absolute;
     bottom: 0;
@@ -309,7 +312,8 @@
   
   /* card */
   .section_4 .card{
-    width: 100%;
+    width: 100vw;
+  max-width: 100% ;
     height: 100%;
     display: flex;
     align-items: center;
@@ -322,7 +326,8 @@
   
   }
   .section_4 .card h2{
-    width: 100%;
+    width: 100vw;
+    max-width: 100% ;
     
     margin: 0;
     color: var(--card);
@@ -342,7 +347,8 @@
   }
   .section_4 .card p {
     overflow-y: hidden;
-    width: 100%;
+    width: 100vw;
+    max-width: 100% ;
     height: 35%;
      font-family: 'Purista';
     font-size: 4.2vw;
@@ -382,8 +388,8 @@
   }
   /* card_2 */
   .section_4 .card_2{
-    width: 100%;
-   
+    width: 100vw;
+    max-width: 100% ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -394,7 +400,8 @@
   /* div_flut_2 */
   .div_flut_2{
     height: 50vh;
-    width: 100%;
+    width: 100vw;
+  max-width: 100% ;
     position: absolute;
     top: 0; /* Começa do topo da seção */
     object-fit: cover;
@@ -411,7 +418,8 @@
   .opacity_flutu_2{
     position: absolute;
    top: 0;
-    width: 100%;
+   width: 100vw;
+   max-width: 100% ;
     height: 10vh;
     z-index: 10;
     background-image: linear-gradient(0deg,#e0eeee00,#e0eeee82, #e0eeeee6, #e0eeee);
@@ -420,6 +428,7 @@
   /* img_ia_2 */
   .section_4 .img_ia_2{
     width: 100vw;
+  max-width: 100% ;
     object-fit: cover;
   }
   

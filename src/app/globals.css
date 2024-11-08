@@ -57,28 +57,17 @@
  
 }
 
+
 html,
 body {
   scroll-behavior: smooth;
-  overflow-x: hidden;
   background-color: var( --cyan);
-  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
   
 }
 
-/* section{
-  border: 1px dashed red;
-} */
-/* div{
-  border: 1px dashed red;
-}
-
-img{
-  border: 1px dashed red;
-}
-h1{
-  border: 1px dashed red;
-} */
 
 a {
   
